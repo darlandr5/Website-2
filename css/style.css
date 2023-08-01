@@ -1,0 +1,81 @@
+/*
+Colors used:
+Primary Color (Black): #242423;
+Secondary Color (Black): #000000;
+*/
+body{
+    font-family: 'Inter', sans-serif;
+    color: #242423;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+p {
+    font-size: 16px;
+    text-align: center;
+}
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    color: #302F4D;
+}
+h2 { 
+font-size:25px; 
+font-weight: 100;
+text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.button {
+    background-color: #5F5D98;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #484672; 
+    color: white;
+    text-decoration: none;
+  }
+
+    a {
+        color: #5F5D98;
+        text-decoration: none; /* No underlining */
+      }
+      a:hover {
+        color: #484672;
+        text-decoration: underline; /* Underlining when hovering over a link */
+      }
+
+      .button.contact {
+        background-color: #302F4C;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .button.contact:hover {
+        background-color: #f2f0f0;
+        color: #242423;
+        text-decoration: none;
+      }
+      img {
+        width:100%;
+      }
+
+      .logo{
+        width: 50px;
+        height: auto;
+      }
+      
+  
