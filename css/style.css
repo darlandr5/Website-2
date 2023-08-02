@@ -74,8 +74,10 @@ h3 {
       }
 
       .logo{
-        width: 50px;
+        width: 300px;
         height: auto;
+        align-content: center;
       }
+     
       
   
