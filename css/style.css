@@ -52,7 +52,8 @@ h3 {
 
     a {
         color: #5F5D98;
-        text-decoration: none; /* No underlining */
+        text-decoration: none; 
+        padding: 13px;
       }
       a:hover {
         color: #484672;
@@ -78,6 +79,58 @@ h3 {
         height: auto;
         align-content: center;
       }
-     
-      
-  
+      header {
+        width:100%;
+        text-align: center;
+        width: [object Object]px; 
+	      height: [object Object]px; 
+	      background: #ffffff; 
+	      box-shadow: 0 14px 20px rgba(204, 204, 204, 0.4)  ; 
+	      -webkit-box-shadow: 0 14px 20px rgba(204, 204, 204, 0.4)  ; 
+	      -moz-box-shadow: 0 14px 20px rgba(204, 204, 204, 0.4)  ; 
+      }
+
+      ul {
+        text-align: center;
+        margin: auto;
+        padding: 15px;
+        display: inline-block;
+    }
+    .skills-tools.column {
+      background-color: #f2f0f0;
+      padding: 15px;
+      margin: 15px
+  }
+   
+    
+.about {
+  padding: 15px;
+  width: 100%;
+  display: inline-block;
+}
+
+.hero {
+  padding: 15px;
+  width: 100%;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+}
+
+.flora {
+  text-align: center;
+}
+.cash-in {
+  text-align: center;
+}
+.social-city{
+  text-align: center;
+}
+.task-up{
+  text-align: center;
+}
+.pb{
+  text-align: center;
+}
