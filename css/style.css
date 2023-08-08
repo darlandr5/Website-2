@@ -3,6 +3,123 @@ Colors used:
 Primary Color (Black): #242423;
 Secondary Color (Black): #000000;
 */
+
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  }
+
+html, body {
+  height: 100%;
+  }
+  body {
+    text-align: center;
+    background-color: hsla(230,40%,50%,1);
+    }
+  body:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    height: 100%;
+    }
+
+h1 {
+  display: inline-block;
+  color: white;
+  font-family: 'Righteous', serif;
+  font-size: 12em; 
+  text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
+  }
+  h1:after {
+    content: attr(data-shadow);
+    position: absolute;
+    top: .06em; left: .06em;
+    z-index: -1;
+    text-shadow: none;
+    background-image:
+      linear-gradient(
+        45deg,
+        transparent 45%,
+        hsla(48,20%,90%,1) 45%,
+        hsla(48,20%,90%,1) 55%,
+        transparent 0
+        );
+    background-size: .05em .05em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    animation: shad-anim 15s linear infinite;
+    }
+
+@keyframes shad-anim {
+  0% {background-position: 0 0}
+  0% {background-position: 100% -100%}
+  }
+/* medium devices  */
+@media only screen and (min-width: 640px) {
+  .col-md-6 {
+    width: 50%;
+    float: right;
+    margin-bottom: 25px;
+  }
+
+  header {
+    text-align: unset;
+}
+
+
+  img.project-img {
+    margin-top: 35px;
+    margin-left: 15px;
+  }
+
+  p {
+    font-size: 22px;
+    line-height: 25px;
+    margin: 18px;
+  }
+
+  picture::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+}
+
+/* large devices  */
+@media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+    width: 60%;
+    float: right;
+    margin-bottom: 50px;
+  }
+
+  .col-lg-5 {
+    width: 40%;
+    float: right;
+    margin-bottom: 50px;
+  }
+  p {
+    font-size: 22px;
+    line-height: 25px;
+    margin: 18px;
+  }
+
+}
+
+/* xl-devices  */
+@media only screen and (min-width: 1440px) {
+}
+
+
+
+
 body{
     font-family: 'Inter', sans-serif;
     color: #242423;
@@ -26,6 +143,8 @@ text-align: center;
 }
 h3 {
     text-align: center;
+    font-weight: 10000;
+    font-size: 35px;
 }
 .button {
     background-color: #5F5D98;
@@ -133,4 +252,23 @@ footer {
 }
 .pb{
   text-align: center;
+}
+
+
+
+[class*="col-"] {
+  float: left;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
