@@ -15,16 +15,24 @@
 
 </head>
 <body>      
-    <header>      
+    <header>    
             <source media="(max-width:500px)" srcset="Becca-Logo-BD_2.gif">
                 <img class="logo" src="Becca-Logo-BD_2.gif" alt="Beccas Logo">
+                </div>
                 
                 <nav>
+                    <div class="navtoggle" id="myNavtoggle"> 
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+           
                     <ul> 
                     <a href="index.html">UX/UI</a>
                     <a href="graphic-design.html">Graphic Design</a>
                     <a href="about.html">About</a>
                     <a href="contact.html">Contact</a>
+                    <li> <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                        <i class="fas fa-bars"></i></a></li> 
+                    </div>
+
                 </ul>
                 </nav>  
             </header>    
@@ -208,6 +216,10 @@
             
         </div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+    crossorigin="anonymous"></script>
+
 
     <script src="js/scripts.js"></script>
     
