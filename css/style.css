@@ -280,28 +280,7 @@ nav > ul > li {
   padding: 0 0 10px;
 }
 
-nav > ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-nav > ul > li > a {
-  padding: 0 10px;
-  font-weight: 700;
-  color: #4a4a4a;
-}
-nav > ul > li > a:visited {
-  color:#524F4A;
-}
-nav > ul > li > a:hover a:focus {
-    color: #524F4A;
-    text-decoration: underline;
-}
 
-nav > ul > li > a:active {
-  /* selected link */
-  color: #25a734;
-}
 
 
 

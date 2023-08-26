@@ -15,20 +15,23 @@
 
 </head>
 <body>      
-    <header>      
-            <source media="(max-width:500px)" srcset="Becca-Logo-BD_2.gif">
-                <img class="logo" src="Becca-Logo-BD_2.gif" alt="Beccas Logo">
-                
-                <nav>
-                    <ul> 
-                    <a href="index.html">UX/UI</a>
-                    <a href="graphic-design.html">Graphic Design</a>
-                    <a href="about.html">About</a>
-                    <a href="contact.html">Contact</a>
-                </ul>
-                </nav>  
-            </header> 
-            
+  <header>   
+    <source media="(max-width:500px)" srcset="Becca-Logo-BD_2.gif">
+    <div class="container"> 
+    <div class="navtoggle" id="myNavtoggle"> 
+        <a href="./index.html" class="logo">  <img class="logo" src="Becca-Logo-BD_2.gif" alt="Beccas Logo"> </a>
+       <nav>
+            <ul> 
+                <a href="index.html">UX/UI</a>
+                <a href="graphic-design.html">Graphic Design</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <li> <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                </ul> 
+            </nav>
+         </div>       
+    </div>
+</header>    
             <div class="contact">  
                 <form id="contact" action="" method="post">
                   <h3>Contact</h3>

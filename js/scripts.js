@@ -1,10 +1,14 @@
 console.log("hello designers")
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
+function menuToggle() {
+    const element = document.getElementById("myNavtoggle");
+
+    if (element.className === "navtoggle") {
+        element.classList.remove ("navtoggle");
+        element.classList.add("navtoggle-responsive");
+
+    } else{
+        element.className = "navtoggle";
     }
-  }
-  
+}
+
+
