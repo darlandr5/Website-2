@@ -430,6 +430,7 @@ h3 {
       }
       img {
         width:100%;
+        padding: 10px;
       }
 
       .logo{
@@ -481,6 +482,7 @@ h3 {
 
 footer {
   text-align: center;
+  background-color: #f2f0f0;
 }
 
 .flora {
@@ -521,3 +523,4 @@ footer {
 svg#Layer_1 {
   margin-top: 20px;
 }
+
