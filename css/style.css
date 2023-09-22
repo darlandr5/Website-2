@@ -26,13 +26,34 @@ body {
   margin-top: 200px;
 }
 
+
 textarea#message {
-  width: 500px;
+  width: 400px;
   border-color: grey;
   margin-bottom: 50px;
   border-radius: 3px;
 }
 
+input#name {
+  border-radius: 3px;
+  border-color: grey;
+  border-width: thin;
+  height: 25px;
+}
+
+input#email {
+  border-radius: 3px;
+  border-color: grey;
+  border-width: thin;
+  height: 25px;
+}
+
+input#subject {
+  border-radius: 3px;
+  border-color: grey;
+  border-width: thin;
+  height: 25px;
+}
 
 
 #contact button[type="submit"] {
